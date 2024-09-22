@@ -51,7 +51,7 @@ function displayCard(pokemon) {
         <h2>${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h2>
         <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
         <p><strong>Types:</strong> ${types}</p>
-        <p><strong>Abilities:</strong> ${abilities}</p>
+        
         <h3>Base Stats:</h3>
         ${baseStats}
     `;
